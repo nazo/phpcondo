@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* SVN FILE: $Id$ */
+/**
+ * CSSインポート
+ * 全てのページで読み込むCSSを記述
+ *
+ * PHP versions 4 and 5
+ *
+ * BaserCMS :  Based Website Development Project <http://basercms.net>
+ * Copyright 2008 - 2011, Catchup, Inc.
+ *								1-19-4 ikinomatsubara, fukuoka-shi 
+ *								fukuoka, Japan 819-0055
+ *
+ * @copyright		Copyright 2008 - 2011, Catchup, Inc.
+ * @link			http://basercms.net BaserCMS Project
+ * @since			Baser v 0.1.0
+ * @version			$Revision$
+ * @modifiedby		$LastChangedBy$
+ * @lastmodified	$Date$
+ * @license			http://basercms.net/license/index.html
+ */
+
+@import "default.css";
+@import "layout.css";
+@import "class.css";
+@import "contents.css";
+@import "header.css";
+@import "footer.css";

@@ -1,0 +1,27 @@
+#TwitterUpdateBox {
+	background-color: #efefef;
+	margin-bottom: 20px;
+	margin-top:20px;
+	padding:10px;
+}
+#TwitterUpdateBox #TextCounter {
+	display: block;
+	float:right;
+	width:40px;
+	text-align: right;
+	font-size:20px;
+	color:#999999;
+	font-weight: bold
+}
+#TwitterStatus{
+	height:50px;
+}
+#TwitterUpdateSubmit{
+	vertical-align:top;
+	height:54px;
+	width:80px;
+}
+#ResultMessage{
+	text-align: center;
+	color:#CC0000;
+}

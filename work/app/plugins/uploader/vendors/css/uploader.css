@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* SVN FILE: $Id$ */
+/**
+ * Uploader CSS
+ *
+ * PHP versions 4 and 5
+ *
+ * BaserCMS :  Based Website Development Project <http://basercms.net>
+ * Copyright 2008 - 2011, Catchup, Inc.
+ *								1-19-4 ikinomatsubara, fukuoka-shi
+ *								fukuoka, Japan 819-0055
+ *
+ * @copyright		Copyright 2008 - 2011, Catchup, Inc.
+ * @link			http://basercms.net BaserCMS Project
+ * @since			Baser v 0.1.0
+ * @version			$Revision$
+ * @modifiedby		$LastChangedBy$
+ * @lastmodified	$Date$
+ * @license			http://basercms.net/license/index.html
+ */
+
+/* CKEDITOR
+----------------------------------------------- */
+.cke_button_baserUploader .cke_icon{
+    background-position:0 -576px!important;
+}
+
+/* fileList
+----------------------------------------------- */
+#fileList{
+	width:100%;
+	height:100%;
+	white-space: normal;
+	overflow:auto;
+	background-color:#ebebeb;
+	text-align:center;
+}
+
+/* selectable-file
+----------------------------------------------- */
+.selectable-file{
+	padding:5px;
+	margin:3px!important;
+	background-color:#FFFFFF;
+	display:block;
+	float:left;
+	width:120px;
+	height:165px!important;
+	text-align:center;
+	word-wrap: break-word;
+}
+.selectable-file span{
+	white-space:normal!important;
+	color:#333333!important;
+	font-size:10px!important;
+	line-height:12px;
+}
+.selectable-file img{
+	display:block;
+	margin:auto auto 1px;
+}
+.selectable-file,
+.selectable-file img{
+	cursor:pointer;
+}
+.selectable-file .name,
+.selectable-file .modified,
+.selectable-file .small,
+.selectable-file .midium,
+.selectable-file .large,
+.selectable-file .user-name,
+.selectable-file .user-id,
+.selectable-file .url,
+.selectable-file .uploader-category-id{
+	display:none;
+}
+.selectable-file .created {
+	color:#999!important;
+}
+
+/* selected
+----------------------------------------------- */
+.selected{
+	background-color:#99CCFF!important;
+}
+
+/* page-numbers
+----------------------------------------------- */
+.page-numbers a{
+	text-decoration:underline!important;
+	cursor:pointer!important;
+
+}
+
+/* dialog / fileMenu
+----------------------------------------------- */
+#dialog, #fileMenu{
+	display:none;
+}
+
+/* waiting
+----------------------------------------------- */
+.waiting{
+	background-color:#CCCCCC;
+	z-index:20000;
+	opacity:0.3;
+	left:300px;
+	position:absolute;
+	top:60px;
+	width:100px;
+	margin:80px auto auto auto;
+	padding:10px 20px 5px;
+	border:1px solid #999999;
+	font-size:x-small;
+	text-align:center;
+	display:none;
+}
+.waiting img{
+	display:block;
+	margin:auto;
+}
+
+/* table
+----------------------------------------------- */
+.ui-dialog table {
+	width: 100%;
+}
+.ui-dialog th {
+	text-align: right;
+	padding:5px;
+}
+.ui-dialog td {
+	text-align: left;
+	padding:5px;
+}
+
+/* cke_dialog_contents
+----------------------------------------------- */
+.cke_dialog_contents .file-list{
+	margin-top:10px;
+	padding:5px;
+	height:100%;
+}
+.cke_dialog_contents .file-list-body {
+	overflow: auto;
+	height:280px;
+	margin-top: 5px;
+	width: 710px;
+	position: relative;
+}
+
+/* UploaderFile
+----------------------------------------------- */
+.uploader-file-file {
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+}
+.ui-dialog .uploader-file-file {
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+}
+.ui-dialog .uploader-file-image{
+	text-align:center;
+}
+.ui-dialog .uploader-file-image p{
+	margin-bottom:10px;
+}
+.ui-dialog .uploader-file-image .url{
+	text-align: left;
+	font-weight: bold;
+	word-wrap: break-word;
+	width:382px;
+}
+.ui-dialog .uploader-file-id,
+.ui-dialog .uploader-file-name{
+	background-color:#e2e2e2;
+}
+
+/* contextMenu
+----------------------------------------------- */
+.contextMenu .disabled a{
+	color:#eee;
+}
+
+.cke_dialog_ui_vbox select {
+	background-color: #fff!important;
+	border:1px solid #CCC;
+}
+.cke_dialog_ui_vbox input {
+	margin-right: 5px;
+}
+.cke_dialog_ui_vbox .pagination {
+	margin:5px;
+}

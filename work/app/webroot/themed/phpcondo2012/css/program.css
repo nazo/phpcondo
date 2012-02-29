@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * プログラム
+ */
+
+table.program{
+	width: 100%;
+}
+
+table.program tr{
+	border-top: 1px solid #ccc;
+}
+
+table.program tr.resttime{
+	background-color: #dfdfdf;
+}
+
+table.program tr th{
+	vertical-align: top;
+	padding: 3px 5px;
+}
+table.program tr td{
+	padding: 2px 5px;
+}
+table.program tr.resttime td{
+	font-size: smaller;
+}
+
+table.program tr td a.more{
+	font-size: x-small;
+	background-color: #003899;
+	margin-left: 1em;
+	color: #fff;
+	padding: 2px;
+	font-weight: normal;
+}
+
+table.program tr td blockquote{
+	display: none;
+	background-color: #C9EFF8;
+	padding: 0.5em;
+	font-size: small;
+}
+
