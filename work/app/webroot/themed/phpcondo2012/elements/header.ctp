@@ -13,7 +13,7 @@
 <div id="topMain">
 	<div id="about">
 		<p>2012年4月21日(土)</p>
-		<p><strong>PHPカンファレンス北海道2012</strong></p>
+		<p><strong>PHPカンファレンス北海道</strong></p>
 		<p>札幌市産業振興センター　セミナールームA</p>
 	</div>
 	<p class="discription">ついに、あのPHPカンファレンスが北海道でも開催されます。道内外から様々な技術者の方々の講演を予定しています。皆様の参加をお待ちしております！</p>
