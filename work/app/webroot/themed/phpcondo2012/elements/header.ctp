@@ -16,7 +16,8 @@
 		<p><strong>PHPカンファレンス北海道</strong></p>
 		<p>札幌市産業振興センター　セミナールームA</p>
 	</div>
-	<p class="discription">ついに、あのPHPカンファレンスが北海道でも開催されます。道内外から様々な技術者の方々の講演を予定しています。皆様の参加をお待ちしております！</p>
+	<p class="discription">ついに、あのPHPカンファレンスが北海道でも開催されます。道内外から様々な技術者の方々の講演を予定しています。皆様の参加をお待ちしております！<br />
+	公式ハッシュタグ：<a href="https://twitter.com/#!/search/%23phpcondo" target="_blank">#phpcondo</a></p>
 </div>
 	<?php endif ?>
 	<div id="glbMenus">
